@@ -1,0 +1,21 @@
+
+.project img {
+    opacity: 1;
+    display: block;
+    /* width: 100%;
+    height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 25vw;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.project {
+    margin-bottom: 150px;
+}
+
+img:hover {
+    opacity: 0.3;
+}

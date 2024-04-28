@@ -1,10 +1,13 @@
+
+import '../styles/Footer.css'
+
 function Footer() {
-    return (
-      <header className="header">
-        <h1>Welcome</h1>
-      </header>
-    );
-  }
+  return (
+    <footer>
+      <p>© 2024 My Portfolio</p>
+    </footer>
+  );
+}
   
-  export default Footer;
+export default Footer;
   

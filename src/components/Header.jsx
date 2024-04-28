@@ -1,9 +1,14 @@
-//import '../styles/Header.css';
 
-function Header() {
+import Navigation from './Navigation';
+
+function Header({ onProjectsClick, onAboutClick, onHomeClick }) {
   return (
     <header className="header">
-      <h1>Welcome</h1>
+      <Navigation
+        onProjectsClick={onProjectsClick}
+        onAboutClick={onAboutClick}
+        onHomeClick={onHomeClick}
+      />
     </header>
   );
 }
