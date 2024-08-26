@@ -6,7 +6,7 @@ function About() {
     <section className="about" id="about">
       <h1>About Me</h1>
       <a href="https://www.linkedin.com/in/amir-tara-225b22205/" target="_blank">
-        <img src="../../public/images/about.jpg" alt="Photo of Amir"/>
+        <img src="../../images/about.jpg" alt="Photo of Amir"/>
       </a>
       <p>I am a passionate individual with a background in civil engineering and a strong desire to transition into the field of full-stack software engineering. 
       </p>
