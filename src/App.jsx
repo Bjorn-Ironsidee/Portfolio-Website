@@ -45,8 +45,10 @@ function App() {
       {showProjects && <Projects />}
       <Footer />
       </div>
+      
     </>
   )
+  
 }
 
 export default App

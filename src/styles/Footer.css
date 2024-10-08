@@ -1,0 +1,9 @@
+.footer {
+  position: relative;   /* Or 'fixed' if you want a sticky footer */
+  bottom: 0;
+  width: 100%;           /* Full width to span across the page */
+  background-color: #333; /* Example styles */
+  color: white;           /* Example styles */
+  text-align: center;
+  padding: 10px;
+}
